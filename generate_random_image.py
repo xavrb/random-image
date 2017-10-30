@@ -92,6 +92,7 @@ def main():
         else:
             img = generate_image_by_output_size(args.requested_size)
         save_image(img, args.output_path)
+    else: print "Arguments needed!, see program help."
 
 if __name__ == '__main__':
     main()
